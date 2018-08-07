@@ -2270,7 +2270,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: green;
 		}
 
 		.icon.style2 {
@@ -2863,7 +2863,7 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: g;
 			}
 
 			.statistics li.style2 {
