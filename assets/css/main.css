@@ -3498,7 +3498,7 @@ input, select, textarea {
 		}
 
 		#main .icon.major {
-			border-color: #dddddd;
+			/* border-color: #dddddd; */
 		}
 
 			#main .icon.major:before {
