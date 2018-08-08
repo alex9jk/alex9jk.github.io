@@ -1,173 +1,195 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<title>Alex Kramer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
-		<script>
-			window.onload = () => {
-				var app = document.getElementById("app");
-				
-				var typewriter = new Typewriter(app, {
-    				loop: false
-				});
-				typewriter.changeTypingSpeed(100);
-				typewriter.typeString('Hi I' +"'"+ 'm Alex and I like')
-					.deleteChars(6)
-					.typeString('no')
-					.deleteChars(2)
-					.typeString('I love to code!')
-    				.start();
-			}
-		</script>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<title>Alex Kramer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+	<script>
+		window.onload = () => {
+			var app = document.getElementById("app");
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						
-						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
-	
-							<h1 id ="app" onload="type()"></h1>
-					
-					</header>
+			var typewriter = new Typewriter(app, {
+				loop: false
+			});
+			typewriter.changeTypingSpeed(100);
+			typewriter.typeString('Hi I' + "'" + 'm Alex and I like')
+				.deleteChars(6)
+				.typeString('no')
+				.deleteChars(2)
+				.typeString('I love to code!')
+				.start();
+		}
+	</script>
+</head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">About</a></li>
-							<li><a href="#first">Work Experience</a></li>
-							<li><a href="#second">Projects</a></li>
-							<li><a href="#cta">Contact</a></li>
-						</ul>
-					</nav>
+<body class="is-preload">
 
-				<!-- Main -->
-					<div id="main">
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>About</h2>
-										</header>
-										<p>Currently I am pursuing a M.S in Information Sciences and Technologies at Rochester Institute Of Technology.
-											I have experience working with various programming languages, frameworks and technologies. I love collaborating
-											with others and I love the idea of becoming a life long learner.
-										</p>
-									</div>
-									<span class="image"><img src="images/head.jpg" alt="" /></span>
-								</div>
-							</section>
+		<!-- Header -->
+		<header id="header" class="alt">
 
-						<!-- First Section -->
-						
-							<section id="first"class ="main special">
-									<header class="major">
-											<h2>Work Experience</h2>
-										</header>
-										<div class="work">
-												<div class="rit">
-														<span class= "image">
-															<img src="images/rit-logo.png" alt="#"/>
-															<h2>Rochester Institute of Technology</h2>
-														</span>
-														<h4>Web Developer Graduate Assistant</h4>
-														<ul>
-															<li>Designing and developing a web application to improve research studies processes at RIT</li>
-															<li>Conducting requirements gathering with stakeholders in order to properly design an effective system</li>
-															<li>Researching potential new technologies to be utilized in future implementation</li>
-														</ul>
-													</div>
-											<div class="ellucian">
-												<span class= "image">
-													<img src="images/ellucian.png" alt="#"/>
-													<h2>Ellucian</h2>
-												</span>
-												<h4>Software Developer Intern</h4>
-												<ul>
-													<li>Integrated Cypress testing framework into pipeline and initiated testing strategy</li>
-													<li>Fostered teamwork skills collaborating in a agile development environment</li>
-													<li>Developed and improved features for our admin application’s UI in React.JS </li>
-												</ul>
-							
-											</div>
-										</div>
+			<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
 
-							</section>
-							<section id="second" class="main special">
-									<header class="major">
-										<h2>Projects</h2>
-									</header>
-									<ul class="features">
-										<li>
-											<span class="icon major style1 fa-leaf"></span>
-											<h3>Brick Hack Voice Garden</h3>
-											<p class="projBlurb">Google Voice Application which  enables the Voice to issue commands and request information from an Arduino (EcoDuino).  
-												Voice Garden allows you to ask Google the quality of your plants and water when needed.</p>
-										</li>
-										<li>
-											<span class="icon major style3 fas fa-gamepad"></span>
-											<h3>NBA Jam</h3>
-											<p class="projBlurb">This is project was all about using JavaScript for DOM maninpulation, event propogation and dynamically creating HTML Elements. After completing this proejct I now feel like a DOM master.</p>
-										</li>
-										<li>
-											<span class="icon major style5 fa-search"></span>
-											<h3>MongoDB Search App</h3>
-											<p class="projBlurb">A search application that queries a Yelp and Twitter data set. Built with Node.js, Express.js and Bootstrap</p>
-										</li>
-										
-									</ul>
-									<!-- <footer class="major">
-										<ul class="actions special">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
-									</footer> -->
-								</section>
+			<h1 id="app" onload="type()"></h1>
 
-						<!-- Second Section -->
-						
+		</header>
 
-						<!-- Get Started -->
-							
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li>
+					<a href="#intro" class="active">About</a>
+				</li>
+				<li>
+					<a href="#first">Work Experience</a>
+				</li>
+				<li>
+					<a href="#second">Projects</a>
+				</li>
+				<li>
+					<a href="#cta">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Introduction -->
+			<section id="intro" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>About</h2>
+						</header>
+						<p>Currently I am pursuing a M.S in Information Sciences and Technologies at Rochester Institute Of Technology. I have
+							experience working with various programming languages, frameworks and technologies. I love collaborating with others
+							and I love the idea of becoming a life long learner.
+						</p>
 					</div>
+					<span class="image">
+						<img src="images/head.jpg" alt="" />
+					</span>
+				</div>
+			</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section id ="cta">
-							<h2>Contact</h2>
-							<p>Always looking to connect and collaborate. Need some additional help for an existing project?
-								Looking for someone to jump start your website or product? Shoot me an email or find me on linked in.
-							</p>
-							<ul class="icons">
-									<li><a href="mailto:alex9jk@gmail.com">Email me</a></li>
-									<li><a href="https://github.com/alex9jk" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-									<li><a href="https://linkedin.com/in/alex9jk/" class="icon fab fa-linkedin alt"><span class="label">Dribbble</span></a></li>
-								</ul>
-						
-						</section>
-			
-						<!-- <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
-					</footer>
+			<!-- First Section -->
 
-			</div>
+			<section id="first" class="main special">
+				<header class="major">
+					<h2>Work Experience</h2>
+				</header>
+				<div class="work">
+					<div class="rit">
+						<span class="image">
+							<img src="images/rit-logo.png" alt="#" />
+							<h2>Rochester Institute of Technology</h2>
+						</span>
+						<h4>Web Developer Graduate Assistant</h4>
+						<ul>
+							<li>Designing and developing a web application to improve research studies processes at RIT</li>
+							<li>Conducting requirements gathering with stakeholders in order to properly design an effective system</li>
+							<li>Researching potential new technologies to be utilized in future implementation</li>
+						</ul>
+					</div>
+					<div class="ellucian">
+						<span class="image">
+							<img src="images/ellucian.png" alt="#" />
+							<h2>Ellucian</h2>
+						</span>
+						<h4>Software Developer Intern</h4>
+						<ul>
+							<li>Integrated Cypress testing framework into pipeline and initiated testing strategy</li>
+							<li>Fostered teamwork skills collaborating in a agile development environment</li>
+							<li>Developed and improved features for our admin application’s UI in React.JS </li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="second" class="main special">
+				<header class="major">
+					<h2>Projects</h2>
+				</header>
+				<ul class="features">
+					<li>
+						<span class="icon major style6 fas fa-assistive-listening-systems"></span>
+						<h3>Smart Speech</h3>
+						<p class="projBlurb">Speech recognition application which enhances the experience for lectures for deaf or hard-of hearing students. Built
+							with Node.js, Bootstrap and Native Javacript Speech Recognition.</p>
+					</li>
+					<li>
+						<span class="icon major style1 fa-leaf"></span>
+						<h3>Brick Hack Voice Garden</h3>
+						<p class="projBlurb">Google Voice Application which enables the Voice to issue commands and request information from an Arduino (EcoDuino).
+							Voice Garden allows you to ask Google the quality of your plants and water when needed.</p>
+					</li>
+					<li>
+						<span class="icon major style3 fas fa-gamepad"></span>
+						<h3>NBA Jam</h3>
+						<p class="projBlurb">This is project was all about using JavaScript for DOM maninpulation, event propogation and dynamically creating HTML
+							Elements. After completing this proejct I now feel like a DOM master.</p>
+					</li>
+					<li>
+						<span class="icon major style5 fa-search"></span>
+						<h3>MongoDB Search App</h3>
+						<p class="projBlurb">A search application that queries a Yelp and Twitter data set. Building this application allowed me to familiarize
+							myself with MongoDB. Built with Node.js, Express.js and Bootstrap</p>
+					</li>
+					<li>
+						<span class="icon major style2 far fa-clone"></span>
+						<h3>Memory Card Game</h3>
+						<p class="projBlurb">Speech recognition application which enhances the experience for lectures for deaf or hard-of hearing students. Built
+							with Node.js, Bootstrap and Native Javacript Speech Recognition.</p>
+					</li>
+				</ul>
+			</section>
+		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Footer -->
+		<footer id="footer">
+			<section id="cta">
+				<h2>Contact</h2>
+				<p>Always looking to connect and collaborate. Need some additional help for an existing project? Looking for someone to
+					jump start your website or product? Shoot me an email or find me on linked in.
+				</p>
+				<ul class="icons">
+					<li>
+						<a href="mailto:alex9jk@gmail.com">Email me</a>
+					</li>
+					<li>
+						<a href="https://github.com/alex9jk" class="icon fa-github alt">
+							<span class="label">GitHub</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://linkedin.com/in/alex9jk/" class="icon fab fa-linkedin alt">
+							<span class="label">Dribbble</span>
+						</a>
+					</li>
+				</ul>
 
-	</body>
+			</section>
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
