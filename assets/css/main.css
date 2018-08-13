@@ -232,11 +232,14 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+	
+		
 		h1 {
 			font-size: 2em;
 		}
 
 	}
+	
 
 	sub {
 		font-size: 0.8em;
@@ -2270,7 +2273,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: green;
+			color: #80BA5D;
 		}
 
 		.icon.style2 {
@@ -2288,6 +2291,10 @@ input, select, textarea {
 		.icon.style5 {
 			color: #8cc9f0;
 		}
+		.icon.style6 {
+			color: #D0D0D0;
+		}
+		
 
 		@media screen and (max-width: 1680px) {
 
@@ -3495,7 +3502,7 @@ input, select, textarea {
 		}
 
 		#main .icon.major {
-			border-color: #dddddd;
+			/* border-color: #dddddd; */
 		}
 
 			#main .icon.major:before {
@@ -3764,4 +3771,58 @@ input, select, textarea {
 		}
 .projBlurb {
 	font-size: 15px;
+}
+.ellucian h2 {
+	float: left;
+}
+.ellucian span {
+	margin-bottom: -4px;
+}
+.ellucian img {
+	margin-top: 4px;
+}
+.rit h2{
+	float:left;
+}
+.rit span {
+	margin-bottom: -4px;
+}
+.rit img {
+	margin-top: 4px;
+}
+.work li {
+	padding-left: 5px;
+	list-style-type: circle;
+	font-size: 18px;
+	font-weight: 300;
+	color: #002c4c;
+}
+.work h2 {
+	margin-bottom: 3px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-left: 12px;
+}
+.work h4 {
+	margin-left: 55px;
+	margin-top: -13px;
+	font-size: 19px;
+}
+.work ul {
+	
+	color: #7bb6d8;
+	margin-left: 55px;
+	margin-top: -6px;
+	
+}
+.work {
+	text-align: left;		
+}
+.work img {
+	height: 50px;
+	float: left;
+}
+.rit img {
+	margin-top: 12px;
+	height: 40px;
 }
