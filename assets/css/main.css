@@ -2287,14 +2287,16 @@ input, select, textarea {
 		.icon.style4 {
 			color: #9bb2e1;
 		}
-
+		
 		.icon.style5 {
 			color: #8cc9f0;
 		}
 		.icon.style6 {
 			color: #D0D0D0;
 		}
-		
+		.icon.style7{
+			color: #D28E36;
+		}
 
 		@media screen and (max-width: 1680px) {
 
